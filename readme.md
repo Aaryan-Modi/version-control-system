@@ -64,7 +64,8 @@ Compiling
 g++ main.cpp
 ```
 
-Commands (Note : Provide complete path of the file or open terminal in the folder where your file is.)
+Commands    
+**Note:** Provide complete path of the file or open terminal in the folder where your file is.
 ```
 ./a.out init                          # Initialize a new repo
 ./a.out add notes.txt                 # Stage a file
@@ -80,10 +81,11 @@ Commands (Note : Provide complete path of the file or open terminal in the folde
 g++ main.cpp
 ```
 **Step 2: Initializing Empty Repository**  
-**NOTE:-** I am using wsl, if you are using Linux, a new hidden folder of ".git" will get created. You can check it by "la" command.
+
 ```
 ./a.out init
 ```
+**NOTE:-** I am using wsl, if you are using Linux, a new hidden folder of ".git" will get created. You can check it by "la" command.
 ![init](Screenshot1.png)
 ![init](Screenshot2.png)
 **NOTE:-** Inside .git two new folders **commits** and **staging_area** are created, check them out by "ls" command.
@@ -95,4 +97,9 @@ For example I am adding "gitClass.cpp" in staging_area.
 ```
 ![init](Screenshot4.png)
 
+**Step 4: Commit Changes**
+```
+./a.out commit -m "Changes Commited"
+```
+![init](Screenshot5.png)
 
