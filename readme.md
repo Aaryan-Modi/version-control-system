@@ -79,7 +79,20 @@ Commands (Note : Provide complete path of the file or open terminal in the folde
 ```
 g++ main.cpp
 ```
-**Step 2: Initializing Empty Repository**
+**Step 2: Initializing Empty Repository**  
+**NOTE:-** I am using wsl, if you are using Linux, a new hidden folder of ".git" will get created. You can check it by "la" command.
+```
+./a.out init
+```
+![init](Screenshot1.png)
+![init](Screenshot2.png)
+**NOTE:-** Inside .git two new folders **commits** and **staging_area** are created, check them out by "ls" command.
 
+**Step 3: Add files to staging_area**
+For example I am adding "gitClass.cpp" in staging_area.
+```
+./a.out add gitClass.cpp
+```
+![init](Screenshot4.png)
 
 
