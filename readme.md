@@ -101,5 +101,13 @@ For example I am adding "gitClass.cpp" in staging_area.
 ```
 ./a.out commit -m "Changes Commited"
 ```
+**NOTE:-** You can check folders inside **commits** folder for more details. 
 ![init](Screenshot5.png)
+
+**Step 5: Display Commits**
+```
+./a.out log
+```
+**NOTE:-** It displays all past commits info.
+![init](Screenshot6.png)
 
